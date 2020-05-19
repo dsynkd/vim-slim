@@ -17,9 +17,6 @@ endif
 " Allows a per line syntax evaluation.
 let b:ruby_no_expensive = 1
 
-" Include Ruby syntax highlighting
-syn include @slimRubyTop syntax/ruby.vim
-unlet! b:current_syntax
 " Include Haml syntax highlighting
 syn include @slimHaml syntax/haml.vim
 unlet! b:current_syntax
@@ -87,7 +84,7 @@ hi def link slimAttrString                String
 hi def link slimBegin                     String
 hi def link slimClass                     Type
 hi def link slimAttr                      Type
-hi def link slimClassChar                 Type
+hi def link slimClassChar                 Identifier
 hi def link slimComment                   Comment
 hi def link slimDocType                   Identifier
 hi def link slimDocTypeKeyword            Keyword
