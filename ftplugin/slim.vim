@@ -11,7 +11,7 @@ if exists("b:undo_ftplugin")
   unlet b:undo_ftplugin
 endif
 
-runtime! ftplugin/ruby.vim ftplugin/ruby_*.vim ftplugin/ruby/*.vim
+" runtime! ftplugin/ruby.vim ftplugin/ruby_*.vim ftplugin/ruby/*.vim
 let b:did_ftplugin = 1
 
 " Combine the new set of values with those previously included.
